@@ -1,0 +1,98 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fcb614;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:#fcb614;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white !important;
+}
+
+.navbar.past-main{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1) !important;
+}
+
+
+ a {
+    text-decoration: none !important;
+}
+
+
+#requestDivOne{
+    background:#fcb614;
+}
+
+#requestDivOne>h1{
+    color:white;
+}
+#requestDivOne>p{
+    color:white;
+}
+
+
+
+  .back-to-top {
+    background: #fcb614 !important;
+    left: 10px;
+    top: 6px;
+
+  }
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fcb614;
+}
+  .back-to-top {
+    background: #fcb614 !important;
+
+  }
+
+/* 21.09: Preloader */
+.preLoader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 99999;
+    overflow: hidden;
+}
+.preload-inner {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.subtitle{
+     color: #fff;
+    background: #635CDB;
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
